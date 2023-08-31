@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.dmcs_check_and_act_form_list">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list1"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list2"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list3"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list4"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list5"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list6"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list7"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list8"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list9"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list10"/>
+                <include layout="@layout/fragment_dmcs_check_and_act_form_list11"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

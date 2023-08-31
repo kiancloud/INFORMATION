@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.dmcs_check_and_act_form_list10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/OTHERITEMS">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:background="@color/colorBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="OTHER ITEMS/DISCUSSION WITH OTHER STORE PERSONNEL/FEEDBACK"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10sp"/>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="CHANNEL PROGRAM EXECUTION"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/OTHERITEMSA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="CUSTOMER SPECIFIC ACTIVITY"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/OTHERITEMSA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="BACKROOM/BODEGA CONDITION"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/OTHERITEMSA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="AR (COLLECTION)"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/OTHERITEMSA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSB4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSC4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="SHOPPER / FEEDBACK"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/OTHERITEMSA5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSB5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/OTHERITEMSD5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

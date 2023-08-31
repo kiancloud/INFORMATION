@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.coacher_signature">
+
+    <TextView
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:padding="0dp"
+        android:textColor="@color/gray"
+        android:textStyle="italic"
+        android:layout_marginTop="325dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="___________________________________"/>
+    <TextView
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textColor="@color/gray"
+        android:textStyle="italic"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="salesman signature"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnclear2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:text="clear"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnSave2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:text="save"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        android:id="@+id/signaturePad2"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="75dp"
+        app:penMinWidth="7dp"/>
+
+    <EditText
+        android:id="@+id/et_finalremarksalesman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Your Remarks Here"
+        android:textColor="@color/gray"
+        android:layout_marginTop="450dp"
+        android:textAlignment="center"/>
+
+
+</FrameLayout>

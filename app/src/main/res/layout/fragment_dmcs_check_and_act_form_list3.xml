@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.dmcs_check_and_act_form_list3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/CBU">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:background="@color/colorBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MILO"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10sp"/>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="OOS OSA SKUs"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="SHELF PRICE OF KEY SKU'S"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="CYCLE PLAN EXECUTION"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="PLANOGRAM EXECUTION / DISPLAY"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="FEFO / AGEING /INVTY LEVEL"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="COMPETITOR ACTIVITY DETAILS"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+                <EditText
+                    android:id="@+id/MILOA6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="OTHERS"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/MILOA7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOB7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOC7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/MILOD7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

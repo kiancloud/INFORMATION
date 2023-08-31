@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.dmcs_check_and_act_form_list11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/BDDA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:background="@color/colorBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BUSINESS DEVELOPEMENT DISCUSSION AND AGREEMENT"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10sp"/>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+                <EditText
+                    android:id="@+id/BDDAA6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/BDDATOPIC7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:hint="TYPE NEW TOPIC HERE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="DISCUSSION POINTS"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/BDDAA7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="AGREEMENT"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAB7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAC7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/BDDAD7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+
+            android:id="@+id/btn_dmcssave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/design_button"
+            android:padding="6dp"
+            android:text="Save and Send"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

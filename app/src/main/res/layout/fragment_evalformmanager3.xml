@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.evalformmanager3">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/evalformmanager3"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue">
+            <TextView
+                android:id="@+id/e3survey1_a_manager"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="PLAN"
+                android:padding="10sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey1_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="CONSISTENTLY REVIEW THE QUALITY OF SALESMAN'S DSR AND DOR" />
+
+                <TextView
+                    android:id="@+id/e3survey1_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey1_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey1_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey1_e_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey1_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey2_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO CRAFT EFFECTIVE COMPETENCY DEVELOPMENT PLAN FOR EACH SALESMAN BASED ON DIAL" />
+
+                <TextView
+                    android:id="@+id/e3survey2_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey2_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey2_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey2_e_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey2_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey3_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO CREATE TERRITORY OPTIMIZATION PLAN (MCP) FOR THE MOST EFFICIENT AND EFFECTIVE COVERAGE FOR THE TERRITORY" />
+
+                <TextView
+                    android:id="@+id/e3survey3_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey3_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey3_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey3_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey3_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="DO"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey4_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO COACH EFFECTIVELY" />
+
+                <TextView
+                    android:id="@+id/e3survey4_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey4_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey4_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey4_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey4_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey5_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="CONSISTENTLY REVIEW LOAD PLAN AND ENSURE DISTRIBUTION SKU'S ARE COMPLETE, RIGHT PRODUCT MIX AND STOCK WEIGHT" />
+
+                <TextView
+                    android:id="@+id/e3survey5_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey5_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey5_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey5_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey5_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey6_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO CHALLENGE SALESMAN KPI'S DURING DOR" />
+
+                <TextView
+                    android:id="@+id/e3survey6_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey6_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey6_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey6_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey6_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey7_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="EFFECTIVELY COMMUNICATE ALIGNED OBJECTIVES TO THE TEAM" />
+
+                <TextView
+                    android:id="@+id/e3survey7_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey7_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey7_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey7_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/e3survey7_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/e3survey8_a_manager"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CHECK AND ACT"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey8_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO RUN DOR AND WOR EFFECTIVELY AND EFFICIENTLY" />
+
+                <TextView
+                    android:id="@+id/e3survey8_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey8_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey8_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey8_e_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey8_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e3survey9_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ANALYSIS TRENDS OF THE GROUP/AREA/STORE PERFORMANCE AND CREATES EFFECTIVE ACTIONS" />
+
+                <TextView
+                    android:id="@+id/e3survey9_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e3survey9_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey9_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e3survey9_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey9_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remark"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/e10survey_a_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:text="ABLE TO DO EFFECTIVE PROBLEM SOLVING (ROOT CAUSE MINDSET) ON THE ISSUES RELEVANT TO THE GROUP" />
+
+                <TextView
+                    android:id="@+id/e10survey_b_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="Company Required Competency Level (RIGHT PEOPLE)"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:id="@+id/e10survey_c_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:text="CL5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="10sp"
+                    android:text="GRADE"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/e3spn_survey10_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="10sp"
+                    android:entries="@array/CLlevel1" />
+
+                <TextView
+                    android:id="@+id/e10survey_d_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:text="COACH/LM OBSERVATION NOTES"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/e3survey10_feedback_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remark"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        HIDDIN DUE TO NEW REVISION (OM TO GTM EVALUATION FORM)-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            app:cardCornerRadius="10dp"-->
+<!--            app:cardPreventCornerOverlap="true"-->
+<!--            app:cardElevation="5dp"-->
+<!--            app:cardUseCompatPadding="true">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/e3survey11_a_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:text="COACHES TRENDS ANALYSIS AND PROBLEM SOLVING SKILLS TO THE TEAM" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/e3survey11_b_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:text="Company Required Competency Level (RIGHT PEOPLE)"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_margin="5dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/e3survey11_c_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:text="CL5"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="@color/black" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:text="GRADE"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_margin="5dp" />-->
+
+<!--                <Spinner-->
+<!--                    android:id="@+id/e3spn_survey11_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:entries="@array/CLlevel1" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/e3survey11_d_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:text="COACH/LM OBSERVATION NOTES"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_margin="5dp" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/e3survey11_feedback_manager"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:gravity="top"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:hint="Remarks"-->
+<!--                    android:inputType="textMultiLine" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+        <Button
+
+            android:id="@+id/btn_evalsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/design_button"
+            android:padding="6dp"
+            android:text="Submit"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

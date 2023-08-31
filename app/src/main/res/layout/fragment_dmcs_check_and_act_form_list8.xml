@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.dmcs_check_and_act_form_list8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/INFNTNUTRITION">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:background="@color/colorBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="INFANT NUTRITION"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10sp"/>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="OOS OSA SKUs"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="SHELF PRICE OF KEY SKU'S"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="CYCLE PLAN EXECUTION"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="PLANOGRAM EXECUTION / DISPLAY"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="FEFO / AGEING /INVTY LEVEL"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="COMPETITOR ACTIVITY DETAILS"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardPreventCornerOverlap="true"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:text="MILK CODE COMPLIANCE"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="I / O"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp" />
+
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONA7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ACTION PLAN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONB7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="RESPONSIBLE"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIONC7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="WHEN"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/INFNTNUTRITIOND7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60sp"
+                    android:layout_margin="5dp"
+                    android:gravity="top"
+                    android:textSize="10sp"
+                    android:hint="Remarks"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

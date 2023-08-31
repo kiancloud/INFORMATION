@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.profilecreation"
+    android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/top1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/leejongsuk"
+            app:civ_border_color="@color/yellowish"
+            app:civ_border_width="2dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/top1" />
+
+        <EditText
+            android:id="@+id/et_setuppage_cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="COMPLETE NAME"
+            android:inputType="textCapWords"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/gray"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_setuppage_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:hint="POSITION"
+            android:inputType="textCapWords"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_setuppage_companyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:hint="COMPANY NAME"
+            android:inputType="textCapWords"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_profilecreationsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/yellowish"
+            android:layout_gravity="center"
+            android:background="@drawable/cicleshape"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
