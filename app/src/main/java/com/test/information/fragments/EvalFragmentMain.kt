@@ -245,12 +245,12 @@ class EvalFragmentMain : Fragment() {
 // +++++++++++++++++++++++++ GETTING AND SETTING THE VALUE NAME POSITION AND DATE
 
 
-      if (arguments!!.getString("linemanagername") != null || arguments!!.getString("linemanagerposition") != null || arguments!!.getString("date") != null) {
-        val linemanagername = arguments!!.getString("linemanagername")
-        val linemananagerposition = arguments!!.getString("linemanagerposition")
-        val salesmanname = arguments!!.getString("salesmanname")
-        val salesmanposition = arguments!!.getString("salesmanposition")
-        val date = arguments!!.getString("date")
+      if (requireArguments().getString("linemanagername") != null || requireArguments().getString("linemanagerposition") != null || requireArguments().getString("date") != null) {
+        val linemanagername = requireArguments().getString("linemanagername")
+        val linemananagerposition = requireArguments().getString("linemanagerposition")
+        val salesmanname = requireArguments().getString("salesmanname")
+        val salesmanposition = requireArguments().getString("salesmanposition")
+        val date = requireArguments().getString("date")
 //            bitmapsignature1 = getArguments()?.getParcelable("signature1")!!
 //            bitmapsignature2 = getArguments()?.getParcelable("signature2")!!
 

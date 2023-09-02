@@ -55,7 +55,6 @@ var detourbooking = "SALES REPRESENTATIVE"
     var detourdmcs = "DMCS"
 
 
-    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?,

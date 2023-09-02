@@ -1,10 +1,16 @@
 package com.test.information.fragments
 
+import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.content.pm.PackageManager
 import android.database.sqlite.SQLiteDatabase
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.net.Uri
 import android.os.Bundle
+import android.os.Environment
+import android.provider.Settings
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -14,9 +20,11 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.test.information.DatabaseHandler
 import com.test.information.R
-
+import java.io.File
 
 
 class HomeFragment : Fragment() {
@@ -36,6 +44,7 @@ class HomeFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
+
 
         }
     }
@@ -97,7 +106,12 @@ class HomeFragment : Fragment() {
 
 
 
-        btn_coachingbutton.setOnClickListener(){
+
+
+
+
+
+      btn_coachingbutton.setOnClickListener(){
             val coachingForm = AddentryFragment()
             val commit = requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.frame_layout, coachingForm, "findThisFragment")
@@ -111,8 +125,6 @@ class HomeFragment : Fragment() {
                 .addToBackStack(null)
                 .commit()
         }
-
-
 
 
 
@@ -132,13 +144,39 @@ class HomeFragment : Fragment() {
 //                db.close()
 //            }
 
+//      if (!isExternalStorageReadable()) return
 
+      if (!Environment.isExternalStorageManager()) {
+        val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+        intent.addCategory("android.intent.category.DEFAULT")
+        intent.data = Uri.parse(String.format("package:%s", requireContext().packageName))
+        startActivityForResult(intent, 20)
+      } else {
+        createDir("C and A Folder")
+        createDir("Evaluation Folder")
+      }
 
 
 
         // END ON CREATEVIEW MUST USE RETURN V
         return v
+
     }
 
+
+  private fun isExternalStorageReadable(): Boolean {
+    return Environment.getExternalStorageState() in
+        setOf(Environment.MEDIA_MOUNTED, Environment.MEDIA_MOUNTED_READ_ONLY)
+  }
+
+  private fun createDir(directoryName: String): File? {
+    val file = File(Environment.getExternalStoragePublicDirectory("/"),directoryName)
+    if (!file?.mkdirs()!!) {
+      print("Volume : " + "Directory not created")
+      Toast.makeText(this.activity, "$file", Toast.LENGTH_SHORT).show()
+    }
+
+    return file
+  }
 
 }

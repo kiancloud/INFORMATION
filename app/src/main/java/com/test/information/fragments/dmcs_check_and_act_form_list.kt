@@ -1,13 +1,10 @@
 package com.test.information.fragments
-
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.cardview.widget.CardView
 import com.test.information.R
 
 
@@ -422,9 +419,9 @@ class dmcs_check_and_act_form_list : Fragment() {
 
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                            savedInstanceState: Bundle?): View? {
+                            savedInstanceState: Bundle?): View {
     // Inflate the layout for this fragment
-    var v:View = inflater.inflate(R.layout.fragment_dmcs_check_and_act_form_list, container, false)
+    val v:View = inflater.inflate(R.layout.fragment_dmcs_check_and_act_form_list, container, false)
 
     dmcsbtnsave = v.findViewById(R.id.btn_dmcssave)
     positiondmcsname = v.findViewById(R.id.positiondmcsname)
@@ -838,17 +835,18 @@ class dmcs_check_and_act_form_list : Fragment() {
     var dmcsbranchtext = ""
     var dmcscallobjtext = ""
 
-    if (arguments!!.getString("linename") != null || arguments!!.getString("lineposition") != null || arguments!!.get("salesname") !=null ||
-        arguments!!.getString("salesposition")  !=null || arguments!!.getString("cdate") != null ||
-        arguments!!.getString("dmcscustomernametext") !=null || arguments!!.getString("dmcsbranchtext") !=null || arguments!!.getString("dmcscallobjectivetext") !=null) {
-      val linemanagername = arguments!!.getString("linename")
-      val linemananagerposition = arguments!!.getString("lineposition")
-      val salesmanname = arguments!!.getString("salesname")
-      val salesmanposition = arguments!!.getString("salesposition")
-      val date = arguments!!.getString("cdate")
-      val dmcscustomernametext = arguments!!.getString("dmcscustomernametext")
-      val dmcsbrancnametext = arguments!!.getString("dmcsbranchtext")
-      val dmcscallobjecttext = arguments!!.getString("dmcscallobjectivetext")
+    
+    if (requireArguments().getString("linename") != null || requireArguments().getString("lineposition") != null || requireArguments().get("salesname") !=null ||
+        requireArguments().getString("salesposition")  !=null || requireArguments().getString("cdate") != null ||
+        requireArguments().getString("dmcscustomernametext") !=null || requireArguments().getString("dmcsbranchtext") !=null || requireArguments().getString("dmcscallobjectivetext") !=null) {
+      val linemanagername = requireArguments().getString("linename")
+      val linemananagerposition = requireArguments().getString("lineposition")
+      val salesmanname = requireArguments().getString("salesname")
+      val salesmanposition = requireArguments().getString("salesposition")
+      val date = requireArguments().getString("cdate")
+      val dmcscustomernametext = requireArguments().getString("dmcscustomernametext")
+      val dmcsbrancnametext = requireArguments().getString("dmcsbranchtext")
+      val dmcscallobjecttext = requireArguments().getString("dmcscallobjectivetext")
 
 
 
@@ -913,8 +911,8 @@ class dmcs_check_and_act_form_list : Fragment() {
     dmcsbtnsave.setOnClickListener(){
 
       // name of position and salesman name (position name and salesman name)
-      var posname = positiondmcsname.text.toString()
-      var dname = displaydmcsname.text.toString()
+//      var posname = positiondmcsname.text.toString()
+//      var dname = displaydmcsname.text.toString()
 
       // get content from the list 1
       var DHA1 = DHNSA1.text.toString()
@@ -1315,7 +1313,7 @@ class dmcs_check_and_act_form_list : Fragment() {
       val DMCSnextFRAG = dmcs_check_and_act_form_signature()
       val bundle = Bundle()
 
-      var test = "test"
+//      var test = "test"
 
 
       // from dmcs chand and act form
